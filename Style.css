@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url('Images/teste.jpg') no-repeat center center fixed;
+    background: url('imagen/teste.jpg') no-repeat center center fixed;
     background-size: cover;
     background-position: center -50px;
     transition: background 1s ease-in-out;
