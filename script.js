@@ -39,10 +39,10 @@ function exibirDados(dados) {
             return percentualB - percentualA;
         });
 
-        const slaIndex = data.findIndex(item => item.nome && item.nome.toLowerCase() === 'sla');
+        const SLAIndex = data.findIndex(item => item.nome && item.nome.toLowerCase() === 'SLA');
         if (slaIndex !== -1) {
-            const slaCard = data.splice(slaIndex, 1)[0];
-            data.unshift(slaCard);
+            const SLACard = data.splice(SLAIndex, 1)[0];
+            data.unshift(SLACard);
         }
 
         data.forEach((item, i) => {
